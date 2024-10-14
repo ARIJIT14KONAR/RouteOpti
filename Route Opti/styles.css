@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.add-btn, .submit-btn, .remove-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.add-btn:hover, .submit-btn:hover, .remove-btn:hover {
+    background-color: #45a049;
+}
+
+.remove-btn {
+    background-color: #f44336;
+}
+
+.remove-btn:hover {
+    background-color: #e53935;
+}
